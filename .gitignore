@@ -1,0 +1,27 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+data/*.sqlite3
+
+# Python runtime
+__pycache__/
+*.pyc
+.venv/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
